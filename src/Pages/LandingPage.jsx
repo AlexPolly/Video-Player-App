@@ -1,8 +1,15 @@
 import React from 'react'
 import { Row, Col, Card } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 
 function LandingPage() {
+
+  const navigateByUrl = useNavigate()
+
+  const navigate = ()=>{
+    navigateByUrl('/home')
+  }
   return (
     <>
       <Row className='mt-5 mb-5 align-items-center justify-content-between'>
@@ -10,7 +17,7 @@ function LandingPage() {
         <Col lg={4}>
           <h3 className='mb-3'>Welcome to <span className='text-warning'>Media Player</span> </h3>
           <p style={{ textAlign: 'justify' }}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, rerum vel minima natus, optio porro nulla impedit tenetur perspiciatis repellat, cumque saepe ullam officiis? Dolorem quibusdam enim reprehenderit atque sunt.</p>
-          <button className='btn btn-info mt-5 fw-bolder'>Get Started</button>
+          <button onClick={navigate} className='btn btn-info mt-5 fw-bolder'>Get Started</button>
         </Col>
         <Col></Col>
         <Col className='ps-5' lg={6}>

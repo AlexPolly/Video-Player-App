@@ -37,10 +37,10 @@ function Footer() {
             </div>
           </div>
           <div className='icons mt-4 d-flex justify-content-center align-items-center'>
-            <i className="fa-brands fa-linkedin me-3 fa-xl" style={{ color: 'black' }}></i>
-            <i className="fa-brands fa-twitter me-3 fa-xl" style={{ color: 'black' }}></i>
-            <i className="fa-brands fa-instagram me-3 fa-xl" style={{ color: 'black' }}></i>
-            <i className="fa-brands fa-facebook fa-xl" style={{ color: 'black' }}></i>
+            <i className="fa-brands fa-linkedin me-3  fs-3" style={{ color: 'black' }}></i>
+            <i className="fa-brands fa-twitter me-3  fs-3" style={{ color: 'black' }}></i>
+            <i className="fa-brands fa-instagram me-3  fs-3" style={{ color: 'black' }}></i>
+            <i className="fa-brands fa-facebook  fs-3" style={{ color: 'black' }}></i>
           </div>
         </div>
       </div>
